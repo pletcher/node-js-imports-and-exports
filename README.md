@@ -105,7 +105,6 @@ try {
 } catch (error) {
   console.error(`Unable to inspect module ${moduleName}.`);
   console.error(`Reason: ${error.message}`);
-  exit(1);
 }
 ```
 
